@@ -1,0 +1,46 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "python.pythonPath": "python3",
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+        79,
+    ],
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "window.zoomLevel": 0,
+    "workbench.startupEditor": "newUntitledFile",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "editor.lineHeight": 0,
+    "editor.acceptSuggestionOnEnter": "off",
+    "doxdocgen.cpp.tparamTemplate": "\\tparam {param} ",
+    "doxdocgen.generic.paramTemplate": "\\param {param} ",
+    "doxdocgen.generic.returnTemplate": "\\return {type} ",
+    "doxdocgen.generic.dateTemplate": "\\date {date}",
+    "doxdocgen.generic.briefTemplate": "\\brief {text}",
+    "doxdocgen.generic.authorTag": "\\author {author}",
+    "doxdocgen.generic.authorName": "David Thompson",
+    "doxdocgen.file.versionTag": "\\version 0.1",
+    "doxdocgen.file.fileTemplate": "\\file {name}",
+    "todohighlight.keywords": [
+        {
+            "text": "TODO",
+            "color": "black",
+            "backgroundColor": "magenta",
+        }
+    ],
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.activityBar.visible": false,
+    "window.menuBarVisibility": "toggle",
+    "explorer.confirmDelete": false,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    "cpplint.cpplintPath": "/home/david/.local/bin/cpplint",
+    "explorer.confirmDragAndDrop": false
+}
