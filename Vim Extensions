@@ -1,0 +1,6 @@
+THEMES:
+Monokai:  https://github.com/sickill/vim-monokai
+
+PLUGINS:
+Pathogen: https://github.com/tpope/vim-pathogen
+NERDTree: https://github.com/scrooloose/nerdtree
