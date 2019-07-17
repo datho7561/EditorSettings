@@ -7,3 +7,5 @@ alias l='ls'
 alias code='code .'
 alias :q='exit'
 alias cim='vim'
+
+alias rm='rm -i'
