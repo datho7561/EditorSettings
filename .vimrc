@@ -16,6 +16,9 @@ set autoindent
 " Splitting settings
 set splitright
 
+" Make statusline always active
+set laststatus=2
+
 " Font (GUI)
 if has('gui_running')
     set guifont=Ubuntu\ Mono\ 14
