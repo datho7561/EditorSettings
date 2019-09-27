@@ -5,7 +5,7 @@ colorscheme molokai
 
 " Numbers and 80 char marker
 set nu
-let &colorcolumn=join(range(81,999),",")
+let &colorcolumn=join(range(81,82),",")
 
 " Indentation (set tabs to 4 wide,
 " keep tab inserting tabs because it allows working with
