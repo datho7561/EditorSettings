@@ -7,14 +7,20 @@ colorscheme molokai
 set nu
 let &colorcolumn=join(range(81,999),",")
 
-" Indentation (set tabs to 4 wide, add autoindent, 
-" keep tab insertiing tabs because it allows working with
+" Indentation (set tabs to 4 wide,
+" keep tab inserting tabs because it allows working with
 " both space and tab indented files
+" I used to use auto tabbing but now prefer to do my own indenting to make sure its consistent
 set tabstop=4
-set autoindent
 
 " Splitting settings
 set splitright
+
+" Autocomplete for :o
+set wildmode=longest:full,full
+
+" Semicolon is also colon in normal mode
+nmap ; :
 
 " Make statusline always active
 set laststatus=2
