@@ -1,6 +1,10 @@
+" UTF-8
+set encoding=utf-8  " The encoding displayed.
+set fileencoding=utf-8  " The encoding written to file.
+set termguicolors
+
 " Colouring
 syntax enable
-let g:molokai_original = 1
 colorscheme molokai
 
 " Numbers and 80 char marker
@@ -22,13 +26,22 @@ set wildmode=longest:full,full
 " Semicolon is also colon in normal mode
 nmap ; :
 
-" Make statusline always active
-set laststatus=2
+" Font in GVIM
+set gfn=Fira\ Mono\ for\ Powerline\ 13
 
-" Font (GUI)
-if has('gui_running')
-    set guifont=Ubuntu\ Mono\ 14
-endif
+" airline configuration
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_left_sep=''
+let g:airline_left_alt_sep = ''
+let g:airline_right_sep=''
+let g:airline_right_alt_sep = ''
+let g:airline_theme='base16_monokai'
 
-execute pathogen#infect()
-call pathogen#helptags()
+" Disable
+set go-=m  "menu bar
+set go-=T  "toolbar
+set go-=r  "scrollbar
+
+" NICE ;)
+set go+=d  "Use GTK dark theme
