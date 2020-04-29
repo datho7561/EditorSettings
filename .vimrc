@@ -11,10 +11,7 @@ colorscheme molokai
 set nu
 let &colorcolumn=join(range(81,82),",")
 
-" Indentation (set tabs to 4 wide,
-" keep tab inserting tabs because it allows working with
-" both space and tab indented files
-" I used to use auto tabbing but now prefer to do my own indenting to make sure its consistent
+" Set tabs to be 4 wide, and keep tab button to insert a tab
 set tabstop=4
 
 " Splitting settings
@@ -23,25 +20,44 @@ set splitright
 " Autocomplete for :o
 set wildmode=longest:full,full
 
-" Semicolon is also colon in normal mode
-nmap ; :
+" Highlight search results
+set hlsearch
 
 " Font in GVIM
 set gfn=Fira\ Mono\ for\ Powerline\ 13
 
-" airline configuration
+" Airline configuration
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_left_sep=''
 let g:airline_left_alt_sep = ''
 let g:airline_right_sep=''
 let g:airline_right_alt_sep = ''
-let g:airline_theme='base16_monokai'
 
-" Disable
+" Disable menus in GVIM
 set go-=m  "menu bar
 set go-=T  "toolbar
 set go-=r  "scrollbar
-
-" NICE ;)
 set go+=d  "Use GTK dark theme
+
+" Semicolon is also colon in normal mode
+nnoremap ; :
+
+" Disable wq since it is easy to fat finger this combo
+cnoremap wq <nop>
+
+" Set Leader
+let mapleader = " "
+
+" Shortcuts for editing .vimrc
+nnoremap <leader>ev :e $MYVIMRC<cr>
+nnoremap <leader>sv :source $MYVIMRC<cr>
+
+" Switch between dark and light themes (molokai and solarized light)
+nnoremap <leader>td :set background=dark<cr>:colorscheme molokai<cr>
+nnoremap <leader>tl :set background=light<cr>:colorscheme solarized<cr>
+
+" Spotify shortcuts
+nnoremap <leader>mn :!spotifycli --next<cr><cr>
+nnoremap <leader>mp :!spotifycli --prev && spotifycli --prev<cr><cr>
+nnoremap <leader>mt :!spotifycli --playpause<cr><cr>
