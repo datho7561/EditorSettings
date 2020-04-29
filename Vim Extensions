@@ -1,7 +1,6 @@
 THEMES:
-Monokai:  https://github.com/sickill/vim-monokai
 Molokai:  https://github.com/tomasr/molokai
 
 PLUGINS:
-Pathogen: https://github.com/tpope/vim-pathogen
-NERDTree: https://github.com/scrooloose/nerdtree
+https://github.com/vim-airline/vim-airline
+https://github.com/vim-airline/vim-airline-themes
