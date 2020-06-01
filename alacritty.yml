@@ -1,0 +1,30 @@
+font:
+  normal:
+    family: Fira Code
+  size: 14.0
+colors:
+  primary:
+    background: '#1e1f1c'
+    foreground: '#f8f8f2'
+  cursor:
+    text:    '#1e1f1c'
+    cursor:  '#f8f8f2'
+  normal:
+    black:   '#333333'
+    red:     '#C4265E'
+    green:   '#86B42B'
+    yellow:  '#B3B42B'
+    blue:    '#6A7EC8'
+    magenta: '#8C6BC8'
+    cyan:    '#56ADBC'
+    white:   '#e3e3dd'
+  bright:
+    black:   '#666666'
+    red:     '#f92672'
+    green:   '#A6E22E'
+    yellow:  '#e2e22e'
+    blue:    '#819aff'
+    magenta: '#AE81FF'
+    cyan:    '#66D9EF'
+    white:   '#f8f8f2'
+background_opacity: 0.95
