@@ -49,15 +49,19 @@ cnoremap wq <nop>
 " Set Leader
 let mapleader = " "
 
-" Shortcuts for editing .vimrc
+" Shortcuts for editing dotfiles (.vimrc, alacritty.yml, bashrc)
 nnoremap <leader>ev :e $MYVIMRC<cr>
+nnoremap <leader>ea :e ~/.config/alacritty/alacritty.yml<cr>
+nnoremap <leader>eb :e ~/.bashrc<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
-
-" Switch between dark and light themes (molokai and solarized light)
-nnoremap <leader>td :set background=dark<cr>:colorscheme molokai<cr>
-nnoremap <leader>tl :set background=light<cr>:colorscheme solarized<cr>
 
 " Spotify shortcuts
 nnoremap <leader>mn :!spotifycli --next<cr><cr>
 nnoremap <leader>mp :!spotifycli --prev && spotifycli --prev<cr><cr>
 nnoremap <leader>mt :!spotifycli --playpause<cr><cr>
+
+" Buffer shortcuts
+nnoremap <leader><tab> :bn<cr>
+nnoremap <leader><s-tab> :bp<cr>
+nnoremap <leader>^ :bd<cr>
+
