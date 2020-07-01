@@ -5,3 +5,5 @@ My dotfiles:
 2. My VSCode config, `settings.json`
 3. My bash aliases and statusline, `.bashrc`
 4. My alacritty config, `alacritty.yml`
+
+TODO: `.gitconfig`
