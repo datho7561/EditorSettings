@@ -15,4 +15,4 @@ export TERM=xterm-256color
 # Status line
 . ~/git-prompt.sh # https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
-export PS1='\[\033[1;31m\]\[\033[41m\]\[\033[1;37m\]$(pwd | grep -Eoe "/([^/]+)$" | grep -Eoe "[^/]+")\[\033[46m\]\[\033[1;31m\]\[\033[0;30m\]\[\033[46m\]$(__git_ps1 "%s")\[\033[00m\]\[\033[0;36m\]\[\033[00m\] '
+export PS1='`printf "\\001\\033\033[1;31m\\002"``printf "\\001\\033[1;37m\\002"``printf "\\001\\033[41m\\002"``pwd | grep -Eoe "[^/]+$"``printf "\\001\\033[0;31m\\002"``printf "\\001\\033[46m\\002"``printf "\\001\\033[0;30m\\002"``printf "\\001\\033[46m\\002"``__git_ps1 "%s"``printf "\\001\\033[0m\\002"``printf "\\001\\033[0;36m\\002"``printf "\\001\\033[0m\\002"` '
