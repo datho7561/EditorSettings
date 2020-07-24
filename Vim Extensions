@@ -1,6 +1,0 @@
-THEMES:
-Molokai:  https://github.com/tomasr/molokai
-
-PLUGINS:
-https://github.com/vim-airline/vim-airline
-https://github.com/vim-airline/vim-airline-themes
