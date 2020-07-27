@@ -10,6 +10,7 @@ call plug#begin()
 
 Plug 'tomasr/molokai'
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
@@ -64,6 +65,9 @@ let mapleader = " "
 
 " COC settings
 inoremap <silent><expr> <c-space> coc#refresh()
+nmap <leader>cd <Plug>(coc-definition)
+nmap <leader>cf <Plug>(coc-format)
+nmap <leader>ca <Plug>(coc-codeaction-selected)
 
 " Shortcuts for editing dotfiles (.vimrc, alacritty.yml, bashrc)
 nnoremap <leader>ev :e $MYVIMRC<cr>
