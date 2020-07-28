@@ -5,5 +5,6 @@ My dotfiles:
 2. My VSCode config, `settings.json`
 3. My bash aliases and statusline, `.bashrc`
 4. My alacritty config, `alacritty.yml`
+5. My tmux config (mainly just statusline), `.tmux.conf`
 
 TODO: `.gitconfig`
