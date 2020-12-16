@@ -5,32 +5,31 @@ font:
 colors:
   primary:
     background: '#1e1f1c'
-    foreground: '#f8f8f2'
+    foreground: '#EAE9E1'
   cursor:
-    text:    '#1e1f1c'
-    cursor:  '#f8f8f2'
+    text:    '#272822'
+    cursor:  '#EAE9E1'
   normal:
-    black:   '#333333'
+    black:   '#272822'
     red:     '#f92672'
-    green:   '#A6E22E'
-    yellow:  '#B3B42B'
+    green:   '#a9dc76'
+    yellow:  '#E6DB74'
     blue:    '#6A7EC8'
     magenta: '#AE81FF'
     cyan:    '#66D9EF'
     white:   '#f8f8f2'
   bright:
-    black:   '#666666'
-    red:     '#9B0000'
-    green:   '#9AA83A'
-    yellow:  '#D9B700'
-    blue:    '#8080FF'
-    magenta: '#9872A2'
-    cyan:    '#6089B4'
-    white:   '#f8f8f2'
-background_opacity: 0.95
+    black:   '#414339'
+    red:     '#f92672'
+    green:   '#a9dc76'
+    yellow:  '#E6DB74'
+    blue:    '#6A7EC8'
+    magenta: '#AE81FF'
+    cyan:    '#66D9EF'
+    white:   '#CECCC0'
 window:
-  startup_mode: Maximized
   decorations: none
+  startup_mode: Maximized
   dynamic_padding: true
   padding:
     x: 5
