@@ -1,0 +1,22 @@
+[core]
+    editor = vim
+[diff]
+    tool = meld
+[difftool]
+    prompt = false
+[difftool "meld"]
+    cmd = meld "$LOCAL" "$REMOTE"
+[alias]
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr, %an/%cn)%Creset' --abbrev-commit --date=relative
+    peek = !sh -c 'git stash show -p stash@{$1}' -
+    sign = commit --amend -s --no-edit
+    st = status --branch
+	amend = commit --amend --no-edit
+    whatg = difftool HEAD^1
+    co = checkout
+    b = branch -vv
+    heckout = checkout
+    commit = commit -s
+    what = show --format="" --name-status HEAD
+[pull]
+    rebase = true
