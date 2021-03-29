@@ -1,10 +1,9 @@
 # EditorSettings
 
 My dotfiles:
-1. My vim config: `.vimrc` and a list of the plugins I generally use
+1. My vim config, `.vimrc`
 2. My VSCode config, `settings.json`
-3. My bash aliases and statusline, `.bashrc`
+3. My bash aliases, functions, and prompt, `.bashrc`
 4. My alacritty config, `alacritty.yml`
 5. My tmux config (mainly just statusline), `.tmux.conf`
-
-TODO: `.gitconfig`
+6. My git aliases, .gitconfig
